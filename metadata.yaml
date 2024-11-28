@@ -1,0 +1,18 @@
+description: Ultralytics YOLO11x-cls model trained on ./yolo_trainset
+author: Ultralytics
+date: '2024-11-28T23:17:06.234874'
+version: 8.3.38
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 1
+task: classify
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: blacked
+  1: gore
+  2: nsfw
+  3: sfw
+  4: shit
